@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- ==================================================
+         CONFIGURAÇÕES DA PÁGINA
+    =================================================== -->
+
+    <!-- Define a codificação dos caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Faz o site funcionar corretamente em celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Ícone que aparece na aba do navegador -->
+    <link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon.ico">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Cadastro | Digital Gosht</title>
+
+    <!-- Arquivo CSS principal -->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         MENU PRINCIPAL
+    =================================================== -->
+
+    <header class="navbar">
+
+
+        <!-- Logo da empresa -->
+
+        <a href="../index.html" class="logo">
+            DIGITAL <span>GOSHT</span>
+        </a>
+
+
+        <!-- Links de navegação -->
+
+        <nav>
+
+
+            <!-- Volta para a página inicial -->
+
+            <a href="../index.html">
+                Início
+            </a>
+
+
+            <!-- Página do jogo -->
+
+            <a href="tails.html">
+                Yokai Tails
+            </a>
+
+
+            <!-- Página de perfil -->
+
+            <a href="perfil.html">
+                Perfil
+            </a>
+
+
+            <!-- Página atual: Cadastro -->
+
+            <a href="cadastro.html" class="active">
+                Cadastro
+            </a>
+
+
+            <!-- Página de login -->
+
+            <a href="login.html" class="btn-login">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         FORMULÁRIO DE CADASTRO
+    =================================================== -->
+
+    <main class="form-page">
+
+
+        <!-- Container principal do formulário -->
+
+        <div class="form-container">
+
+
+            <!-- Nome da empresa -->
+
+            <p class="orange-text">
+                DIGITAL GOSHT
+            </p>
+
+
+            <!-- Título -->
+
+            <h1>
+                CRIAR <span>CONTA</span>
+            </h1>
+
+
+            <!-- Descrição -->
+
+            <p>
+                Crie seu perfil para fazer parte
+                da comunidade Digital Gosht.
+            </p>
+
+
+
+            <!-- ==================================================
+                 FORMULÁRIO
+            =================================================== -->
+
+            <form id="formCadastro">
+
+
+                <!-- ==================================================
+                     CAMPO NOME
+                =================================================== -->
+
+                <label for="nome">
+                    Nome completo
+                </label>
+
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                >
+
+
+
+                <!-- ==================================================
+                     CAMPO E-MAIL
+                =================================================== -->
+
+                <label for="email">
+                    E-mail
+                </label>
+
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu e-mail"
+                >
+
+
+
+                <!-- ==================================================
+                     CAMPO SENHA
+                =================================================== -->
+
+                <label for="senha">
+                    Senha
+                </label>
+
+
+                <input
+                    type="password"
+                    id="senha"
+                    placeholder="Digite sua senha"
+                >
+
+
+
+                <!-- ==================================================
+                     CONFIRMAÇÃO DE SENHA
+                =================================================== -->
+
+                <label for="confirmar">
+                    Confirmar senha
+                </label>
+
+
+                <input
+                    type="password"
+                    id="confirmar"
+                    placeholder="Confirme sua senha"
+                >
+
+
+
+                <!-- ==================================================
+                     BOTÃO DE CADASTRO
+                =================================================== -->
+
+                <button type="submit" class="btn-primary">
+                    CRIAR CONTA
+                </button>
+
+            </form>
+
+
+
+            <!-- ==================================================
+                 LINK PARA LOGIN
+            =================================================== -->
+
+            <p class="form-link">
+
+                Já possui uma conta?
+
+                <a href="login.html">
+                    Fazer login
+                </a>
+
+            </p>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         RODAPÉ
+    =================================================== -->
+
+    <footer>
+
+
+        <!-- Nome da empresa -->
+
+        <h3>
+            DIGITAL <span>GOSHT</span>
+        </h3>
+
+
+        <!-- Informação sobre o projeto -->
+
+        <p>
+            Projeto acadêmico desenvolvido para fins educacionais.
+        </p>
+
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <!--
+        Como esta página está dentro da pasta "paginas",
+        usamos ../ para voltar à pasta principal.
+    -->
+
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>

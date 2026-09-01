@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- ==================================================
+         CONFIGURAÇÕES DA PÁGINA
+    =================================================== -->
+
+    <!-- Codificação dos caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Faz o site funcionar corretamente em celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Ícone que aparece na aba do navegador -->
+    <link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon.ico">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Login | Digital Gosht</title>
+
+    <!-- Arquivo CSS principal -->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         MENU PRINCIPAL
+    =================================================== -->
+
+    <header class="navbar">
+
+
+        <!-- Logo da empresa -->
+
+        <a href="../index.html" class="logo">
+            DIGITAL <span>GOSHT</span>
+        </a>
+
+
+        <!-- Links de navegação -->
+
+        <nav>
+
+
+            <!-- Volta para a página inicial -->
+
+            <a href="../index.html">
+                Início
+            </a>
+
+
+            <!-- Página do jogo -->
+
+            <a href="tails.html">
+                Yokai Tails
+            </a>
+
+
+            <!-- Página de perfil -->
+
+            <a href="perfil.html">
+                Perfil
+            </a>
+
+
+            <!-- Página de cadastro -->
+
+            <a href="cadastro.html">
+                Cadastro
+            </a>
+
+
+            <!-- Página atual: Login -->
+
+            <a href="login.html" class="btn-login active">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         ÁREA DE LOGIN
+    =================================================== -->
+
+    <main class="form-page">
+
+
+        <!-- Container principal do formulário -->
+
+        <div class="form-container">
+
+
+            <!-- Texto de destaque -->
+
+            <p class="orange-text">
+                BEM-VINDO DE VOLTA
+            </p>
+
+
+            <!-- Título -->
+
+            <h1>
+                FAZER <span>LOGIN</span>
+            </h1>
+
+
+            <!-- Pequena descrição -->
+
+            <p>
+                Entre na sua conta da Digital Gosht.
+            </p>
+
+
+
+            <!-- ==================================================
+                 FORMULÁRIO
+            =================================================== -->
+
+            <form id="formLogin">
+
+
+                <!-- Campo de e-mail -->
+
+                <label for="loginEmail">
+                    E-mail
+                </label>
+
+
+                <input
+                    type="email"
+                    id="loginEmail"
+                    placeholder="Digite seu e-mail"
+                >
+
+
+
+                <!-- Campo de senha -->
+
+                <label for="loginSenha">
+                    Senha
+                </label>
+
+
+                <input
+                    type="password"
+                    id="loginSenha"
+                    placeholder="Digite sua senha"
+                >
+
+
+
+                <!-- Botão de login -->
+
+                <button type="submit" class="btn-primary">
+                    ENTRAR
+                </button>
+
+            </form>
+
+
+
+            <!-- ==================================================
+                 LINK PARA CADASTRO
+            =================================================== -->
+
+            <p class="form-link">
+
+                Ainda não possui uma conta?
+
+                <a href="cadastro.html">
+                    Criar conta
+                </a>
+
+            </p>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         RODAPÉ
+    =================================================== -->
+
+    <footer>
+
+
+        <!-- Nome da empresa -->
+
+        <h3>
+            DIGITAL <span>GOSHT</span>
+        </h3>
+
+
+        <!-- Informação sobre o projeto -->
+
+        <p>
+            Projeto acadêmico desenvolvido para fins educacionais.
+        </p>
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <!--
+        Como este arquivo está dentro da pasta "paginas",
+        usamos ../ para voltar à pasta principal.
+    -->
+
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>
